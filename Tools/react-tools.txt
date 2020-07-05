@@ -11,5 +11,5 @@ Tools
 			Example: npm run dev, npm run prod, npm run build:docker  , npm run build:qa etc..
 
 		- ESlint
-				Linting tool to enforce certain code style. Checks for some compile time erros based on set of rules.
+				Linting tool to enforce certain code style. Checks for some compile time erros based on set of rules. Config rules in .eslintrc.json file.
 
