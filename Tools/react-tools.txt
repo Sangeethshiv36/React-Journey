@@ -1,0 +1,14 @@
+Tools
+	- npm :
+			package manager , this allows us to rather than just loading node off the cdn we are gonna install it in registry and import it to our project , import react or any librarirs. you can use unpkg in script but its not recommended to use it in production.
+
+	- Prettier :
+			To keep our code formatted and readable.Keeps our tabs and spaces consistents across all files. You can config prettier in .prettierrc.json
+
+	- npm scripts :
+			This is a config which you c an set in package.json file. By default, test,run are some of the scripts which will already be present after intializing the project with npm init. These scripts can be run by typing "npm run <scriptname>. you can have scripts like a script to format your code with prettier would be like "format: "prettier \src/**/*.{js,html}\" --write (--write to write the file with formatted code, otherwise it will just print the formatted code in terminal). Now when you do npm run format in terminal it will execute that command.
+
+			Example: npm run dev, npm run prod, npm run build:docker  , npm run build:qa etc..
+
+		-
+
