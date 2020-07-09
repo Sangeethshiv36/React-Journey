@@ -10,6 +10,12 @@ Tools
 
 			Example: npm run dev, npm run prod, npm run build:docker  , npm run build:qa etc..
 
-		- ESlint
-				Linting tool to enforce certain code style. Checks for some compile time erros based on set of rules. Config rules in .eslintrc.json file.
+	- ESlint
+		Linting tool to enforce certain code style. Checks for some compile time erros based on set of rules. Config rules in .eslintrc.json file.
+		
+	- Bundler like Webpack or parcel 
+		To reduce file size by bundling all js into one single file which when we deploy to production will be even less in size
+	
+
+Thats about it. 
 
